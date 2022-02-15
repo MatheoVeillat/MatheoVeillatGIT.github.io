@@ -18,18 +18,21 @@
 				<ul>
 					<li> Savoir qui a touché quel fichier sur un projet quand et comment </li>
 					<li> Ne peut pas géner un autre développeur sur son son travaille grâce à son système de branche</li>
-					<li> Chaque développeur va pouvoior travailler en parallèle avec leur propre copie du projet sur une branche personnelle</li>
+					<li> Chaque développeur va pouvoir travailler en parallèle avec leur propre copie du projet sur une branche personnelle</li>
 					<li> Git est décentralisé, l'historique des fichiers est présent dans chacune des machines ou se trouve le projet</li>
 					<li> Permet d'éviter de copier un fichier et ainsi de garder sa capacités de stockage sur sa machine</li>
 				</ul>
 				<h3> Les différents dépots </h3>
 				<ul>
 					<li> Directement dans les fichiers de la machine </li>
-					<li> Grâce à un logiciel de dépot en ligne comme <a href="https://github.com/">GitHub</a>, <a href="https://sonarcloud.io/gitlab?gads_campaign=Europe4-ALMs&gads_ad_group=GitLab&gads_keyword=gitlab%20owasp&utm_source=bing&utm_medium=cpc&utm_campaign=Europe%204%20-%20ALMs&utm_term=gitlab%20owasp&utm_content=GitLab"> Git Lab</a>.</li>
+					<li> Grâce à un logiciel de dépot en ligne comme <a href="https://github.com/">GitHub</a>, <a href="https://about.gitlab.com/"> Git Lab</a>.</li>
 				</ul>
 				<h3> Installation et Configuration </h3>
 				<p>Si c'est la première utilisation de git sur la machine, il faudra configurer votre nom et votre email, il est mieux d'utiliser le même noms et le même email pour faciliter le dépôt en ligne, pour le noms d'utilisateur type PrenomsNOM et cette configuration peut se faire depuis n'importe quel dossier, on commence pars ouvrir un git gash bash pour configurer le profil et on saisit :</p>
-				<img src="./image/imageconfig.png" alt="Configuration" id="imageunique">
+				<ul>
+					<li class="color">git config --global user.name "Votre Nom"</li>
+					<li class="color">git config --global user.name "Votre email"</li>
+				</ul>
 				<h3> Différentes commande</h3>
 				<p> Pour utiliser ces commandes, il faut ouvrir git bash dans le fichier qu'on souhaite utiliser le git</p>
 				<ul>
@@ -110,7 +113,7 @@
 				<p>git a modifié le fichier à l’endroit du conflit pour afficher les deux versions. Si vous avez un éditeur intelligent ( visual studio par exemple ) l’éditeur vous propose des options toutes prêtes: Accept incoming change, accept both, ... Si vous éditez vos fichiers au bloc notes, vous devrez modifier à la main, retirer ce que git a ajouté et régler le conflit.</p>
 				<p>Lorsque vous avez terminé, vous pouvez enregistrer le fichier, l’ajouter à la zone depréparation puis faire un commit pour créer le point de sauvegarde.</p>
 				<h3>Stocker en ligne</h3>
-				<p>Rendez-vous sur un site comme <a href="https://github.com/">GitHub</a>, <a href="https://sonarcloud.io/gitlab?gads_campaign=Europe4-ALMs&gads_ad_group=GitLab&gads_keyword=gitlab%20owasp&utm_source=bing&utm_medium=cpc&utm_campaign=Europe%204%20-%20ALMs&utm_term=gitlab%20owasp&utm_content=GitLab"> Git Lab</a>, crée un compte avec la même adresse mail que vous avez renseigné à git et le même nom d'utilisateur, crée un nouveau dépot qui a pour nom username.github.io</p>
+				<p>Rendez-vous sur un site comme <a href="https://github.com/">GitHub</a>, <a href="https://about.gitlab.com/"> Git Lab</a>, crée un compte avec la même adresse mail que vous avez renseigné à git et le même nom d'utilisateur, crée un nouveau dépot qui a pour nom username.github.io</p>
 				<ul>
 					<li class="decalage">L’option public fait que tout le monde a accès au code</li>
 					<li class="decalage">Avec l’option Private, vous seul avez accès</li>
