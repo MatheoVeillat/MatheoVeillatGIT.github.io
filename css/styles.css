@@ -44,9 +44,6 @@ p{
 	margin-left:50px;
 	margin-right:50px;
 }
-img{
-	margin-left:400px;
-}
 h5{
 	margin-bottom: 0px;
 }
@@ -79,11 +76,6 @@ p{
 		margin-left: 50px;
 		margin-right: 50px;
 	}
-	#imageunique{
-		margin-left: 0px;
-		width: 400px;
-		height: 75px;
-	}
 	.decalage{
 		margin-left: 0px;
 		margin-right: 30px;
@@ -108,10 +100,6 @@ p{
 		margin-left: 40px;
 		margin-right: 0px;
 	}
-	#imageunique{
-		width: 1000px;
-		height: 75px;
-	}
 	.decalage{
 		margin-left: 0px;
 		margin-right: 20px;
@@ -127,10 +115,5 @@ p{
 		width:100%;
 		margin-left:0px;
 		margin-left:0px;
-	}
-	#imageunique{
-		margin-left: 0px;
-		width: 400px;
-		height: 75px;
 	}
 }
