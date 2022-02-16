@@ -38,9 +38,9 @@ article{
 	flex-direction: column;
 }
 footer{
-	margin-top:50px;
-	margin-bottom:0px;
+	margin-left: 0px;
 	text-align:center;
+	display: block;
 }
 .color{
 	color:#DF7401;
