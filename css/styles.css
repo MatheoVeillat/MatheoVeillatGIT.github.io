@@ -2,10 +2,6 @@ body{
 	background-color:#E6E6E6;
 	font-family: 'Comic Sans MS', cursive;
 }
-main{
-	display: flex;
-	margin: auto;
-}
 aside{
 	background-color:#F5F5F5;
 	border: solid 1px #e2e0d8;
